@@ -230,8 +230,7 @@ $small:765px;
     /*z-index: 6;*/
     left: -3px;
 }
-.sq_menu_container{
-	.sq_menu{
+.sq_menu{
 	    position: absolute;
 	    top:30px;
 	    left:35px;
@@ -263,6 +262,38 @@ $small:765px;
 		    font-weight: bold;
 		}
 	}
+.sq_menu_container{
+	/*.sq_menu{
+	    position: absolute;
+	    top:30px;
+	    left:35px;
+	    background: none;
+	    cursor: pointer;
+	    display: none;
+
+	    @media screen and (max-width: $small){
+	    	display: block;
+	    }
+
+		.sq_menu div{
+		    float:left;
+		}
+		.sq_m_span span{
+		    width:25px;
+		    height:3px;
+		    border-radius: 6px;
+		    display:block;
+		    background: #00B05B;
+		    margin:5px 0;
+		}
+		.sq_m_meun{
+		    margin-top: -26px;
+    		margin-left: 29px;
+		    font-size: 18px;
+		    color:#fff;
+		    font-weight: bold;
+		}
+	}*/
 	.sq_meun_back{
 	    position: absolute;
 	    top: 70px;
@@ -798,6 +829,10 @@ $small:765px;
     		position: absolute;
 		    top: 0;
 		    right: 0;
+		    h1{
+		    	font-size: 24px;
+    			margin-top: 56px;
+		    }
     		p{
     			font-size: 18px;
 			    color: #333;
@@ -806,7 +841,7 @@ $small:765px;
 			    margin-bottom: 10px;
 			    color: #fff;
 			    width: 40px;
-			    margin-left: 76%;
+			    margin-left: 62%;
     		}
     	}
 	}
@@ -950,6 +985,10 @@ $small:765px;
     		position: absolute;
 		    top: 0;
 		    right: 0;
+		    h1{
+		    	font-size: 24px;
+    			margin-top: 56px;
+		    }
     		p{
     			font-size: 18px;
 			    color: #333;
@@ -958,7 +997,7 @@ $small:765px;
 			    margin-bottom: 10px;
 			    color: #fff;
 			    width: 40px;
-			    margin-left: 76%;
+			    margin-left: 62%;
     		}
     	}
 	}
@@ -1050,6 +1089,10 @@ $small:765px;
     		position: absolute;
 		    top: 0;
 		    right: 0;
+		    h1{
+		    	font-size: 24px;
+    			margin-top: 56px;
+		    }
     		p{
     			font-size: 18px;
 			    color: #333;
@@ -1149,6 +1192,10 @@ $small:765px;
     		position: absolute;
 		    top: 0;
 		    right: 0;
+		    h1{
+		    	font-size: 24px;
+    			margin-top: 56px;
+		    }
     		p{
     			font-size: 18px;
 			    color: #333;
