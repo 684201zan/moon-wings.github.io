@@ -9,7 +9,7 @@ $(function(){
 	$('#fullpage').fullpage({
 	    fixedElements:'.nav',
 	    anchors:['a','b','c','d','e','f'],
-	    animateAnchor:false,
+	    animateAnchor:true,
 	    navigation:true,
 	    navigationTooltips:['about','me','technology','experience','works','connect'],
 	});

@@ -1248,6 +1248,9 @@ $small:765px;
 
 
 /*细节处理*/
+#fp-nav{
+	z-index: 2000;
+}
 #fp-nav ul li a span{
 	top: 2px;
     left: 2px;
