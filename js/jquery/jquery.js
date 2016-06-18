@@ -6,27 +6,15 @@ $(function(){
 		slidesNavigation:true,
 		navigation:true,
 	});
-	// $('#fullpage').fullpage({
-
-	//     paddingTop:50,
-	//     fixedElements:'.nav',
-	//     anchors:['a','b','c'],
-	//     animateAnchor:false,
-	//     navigation:true,
-	//     navigationTooltips:['aa','bb','cc'],
-	// });
-	
+	$('#fullpage').fullpage({
+	    fixedElements:'.nav',
+	    anchors:['a','b','c','d','e','f'],
+	    animateAnchor:false,
+	    navigation:true,
+	    navigationTooltips:['about','me','technology','experience','works','connect'],
+	});
 	
 
-	// $('#dowebok').fullpage({
-	// 	onLeave: function(index, direction){
-	// 		if(index == '2'){
-	// 			$('#second').find('li').delay(500).animate({
-	// 			left: '-120%'
-	// 			}, 1500, 'easeOutExpo');
-	// 		}
-	// 	}
-	// });
 
 
 	$(function(){
