@@ -12,6 +12,7 @@ $(function(){
 	    animateAnchor:true,
 	    navigation:true,
 	    navigationTooltips:['about','me','technology','experience','works','connect'],
+		showActiveTooltip:true;
 	});
 	
 
